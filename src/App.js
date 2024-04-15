@@ -11,7 +11,7 @@ const NotFound = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="react_app_moviefinder">
       <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
         <Link className="navbar-brand" to="/">
           Movie Finder
