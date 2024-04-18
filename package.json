@@ -2,6 +2,10 @@
   "name": "first-react-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "10.5.1",
+    "node": "21.7.2"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,12 +23,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
